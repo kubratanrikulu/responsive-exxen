@@ -1,0 +1,55 @@
+footer{
+    background-color: var(--primary-text);
+    display: flex;
+}
+
+footer .row {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.25rem;
+    margin-top: 6rem;
+    
+}
+.row-help{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.help-button{
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: var(--primary)
+}
+.devices{
+    margin-bottom: 2rem;
+}
+.icon .fab{
+color: var(--primary-fonth);
+font-size: 4rem;
+}
+.row-help{
+    background-color: #111111;
+    margin-top: 5rem;
+   
+}
+.row-help h2{
+    color: var(--primary);
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}  
+@media (max-width: 1399px) {
+    /* @Mobile */
+  footer .row{
+       text-align: center;
+       font-size: 0.75rem;
+   }
+   .devices{
+       padding: 4rem;
+   
+  }
+
+}

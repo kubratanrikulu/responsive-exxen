@@ -1,0 +1,38 @@
+.exxen-form{
+    background-color: #111111;
+    padding: 3rem;  
+}
+.form{
+    display: flex;
+
+}
+.form .col{
+    width: calc(100% / 3);
+   
+}
+.col input{
+    width: 100%;
+    padding: 1.5rem;
+}
+.col input::placeholder{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--primary-font);
+ 
+}
+.col button{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: bolder
+}
+@media (max-width: 1399px) {
+    /* @Mobile */
+   .form .col{
+       width: 100%;
+       margin-top: 1rem;
+   }
+
+  }
+   

@@ -1,0 +1,8 @@
+:root {
+    --primary: #FFCB04;
+    --primary-text: #000;
+    --primary-fonth:#fff;
+    --transition: all ease 0.5s;
+    --gutter: 15px;
+    
+}
